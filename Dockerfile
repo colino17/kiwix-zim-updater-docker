@@ -1,8 +1,8 @@
 FROM alpine:latest
 
 # ENVIRONMENT
-ENV SCRIPT_FLAGS -d -u -w -c -S
-ENV TZ Canada/Atlantic
+ENV SCRIPT_FLAGS="-d -u -w -c -S"
+ENV TZ="Canada/Atlantic"
 
 # BASICS
 RUN apk update
